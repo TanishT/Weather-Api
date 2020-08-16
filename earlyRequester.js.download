@@ -1,0 +1,3 @@
+!function(){function o(o){return"https://api.hubspot"+(window.location.origin.includes("hubspotqa")?"qa":"")+".com/"+o}function n(n,s,e={}){window.quickFetch.makeEarlyRequest(n,{url:o(s),dataType:"json",contentType:"application/json",type:"GET",noPortalId:!0,...e})}n("accounts","users/v2/app/users/plus-hub-ids/hubless");n("user-info","login-verify/user-info");n("user-progress","academy/v1/progress/all",{noPortalId:!1});n("api-verify","login-verify/hub-user-info",{noPortalId:!1})}();
+
+//# sourceMappingURL=earlyRequester.js.map
